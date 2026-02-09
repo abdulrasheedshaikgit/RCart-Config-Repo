@@ -1,3 +1,14 @@
 spring:
+  active:
+    on-profile: dev
   application:
-    name: rcart-product-service
+    name: rcart-product-service.yml
+  datasource:
+    url: jdbc:mysql://localhost:3306/rcart
+    username: root
+    password: Rasheed7711@
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      dialect: org.hibernate.dialect.MySQL8Dialect
