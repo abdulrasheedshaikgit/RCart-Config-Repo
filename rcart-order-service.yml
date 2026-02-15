@@ -2,7 +2,7 @@ spring:
   active:
     on-profile: dev
   application:
-    name: rcart-product-service
+    name: rcart-order-service
   datasource:
     url: jdbc:mysql://localhost:3306/rcart
     username: root
